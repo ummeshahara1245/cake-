@@ -1,0 +1,526 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #e9ad94da;
+
+
+}
+.header{
+    width: 100%;
+    height: 400px;
+    
+}
+.banner-section{
+    padding: 25px 20px 10px 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    
+}
+.banner-section img{
+    border-radius: 5%;
+}
+.banner-section h1{
+    color:palevioletred;
+    font-size: 50px;
+    width: 100%;
+ 
+}
+.banner-section p{
+    color: white;
+font-weight: bold;
+overflow: hidden;
+width: 100%;
+}
+button{
+    background-color: #512337;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+}
+.cake-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+width: 100%;
+height: 100%;
+}
+.cake-item{
+    color: white;
+    border-radius: 5%;
+    width: 100%;
+    height: 500px;
+    background-color: palevioletred;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+.cake-item img{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5%;
+    margin-top: 1%;
+}
+.img{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: center;
+    align-items: center; */
+}
+.content{
+    color: white;
+    position: absolute;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+/* .img{
+    position: relative;
+  text-align: center;
+} */
+.description{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.description h1{
+    font-size: 600;
+    color: #512337;
+}
+.description p{
+    color:white ;
+}
+.cake-gellary{
+    /* height: 400px; */
+  margin-top: 5%;
+    height: 100%; 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+.cake-gellary img{
+    border-radius: 5%;
+    margin-top: 5%; 
+    text-align: center;
+    align-items: center; 
+    justify-content: center;
+} 
+.cake-gellary img:hover {
+        transform: scale(1.1);
+        overflow: hidden;
+    }
+
+.cake-gellaries p{
+    text-align: center;
+     justify-content: center;
+     align-items: center;
+}
+.cake-gellaries{
+    color: white;
+    border-radius: 5%;
+    height: 400px;
+    width: 360px;
+    justify-content: space-between;
+    background-color: #db7093;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.footer-contact-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    /* /* justify-content: center; */
+    align-items: center; 
+    margin-top: 5%;
+    width: 100%;
+    height: 35rem;
+    box-shadow: 0 0 1rem 0 rgba(194, 88, 134, 0.5); 
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+  }
+  
+  .footer-section::before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(207, 26, 105, 0.2) ;
+    filter: blur(10px);
+    margin: -20px;
+  }
+ 
+  .footer-contact-section img{
+      margin-top: 3%;
+      border-radius: 10%;
+      text-align: center;
+  }
+  .footer-contact h1{
+      color: #512337;
+      font-size: 30;
+  }
+  .footer-contact p{
+      color: white;
+  }
+ 
+
+.icons .fab{
+    align-items: center;
+    font-size: 32px;
+    margin: 0 10px;
+    color: #512337;
+    
+}
+.icons{
+    margin-top: 5%;
+    text-align: center; 
+}
+.copyright{
+    text-align: center;
+    color:#512337 ;
+}
+@media only screen and (min-width: 360px) and (max-width: 599px){
+
+    header{  
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        
+    }
+
+    button{
+padding: 10px 12px 10px 12px;
+font-size: 15px;
+border-radius: 10%;
+    }
+    .banner-section{
+        padding: 0;
+        margin: 0;
+        width: 450px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .banner-section img{
+        padding: 0;
+        width: 100%;
+        height: 258px;
+    }
+    .banner-content{
+        width: 400px;
+        
+    }
+    .img{
+       width: 450px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+       
+       
+    }
+    .img img{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        text-align: center;
+        height: 460px;
+        margin: 0;
+        padding: 0;
+    }
+.content{
+    font-weight: bold;
+    font-size: 15px;
+    width: 300px;
+    color: black;
+    position: absolute;
+
+}
+    .cake-item{
+        padding: 0;
+        width: 450px;
+        height: 450px;
+        margin-top: 5%;
+    }
+    .cake-items{
+padding: 0;
+        margin-top: 50%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .cake-items img{
+        width: 445px;
+}
+.description{
+ margin-left: 20%;
+}
+   .cake-gellary{
+       padding: 0;
+    margin-left: 20%;
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+    }
+    .cake-gellaries img{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    
+    .footer-contact-section{
+        padding: 0;
+        width: 400px;
+                margin-left: 5%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-contact{
+        padding: 0;
+        width: 400px;
+        
+    }
+    .footer-section img{
+        width: 380px;
+        height: 258px;
+    }
+    .footer-section::before{
+        
+        border-radius: 5%;
+        
+    }
+    .icons{
+        margin-left: 25%;
+        
+    }
+    .copyright{
+        margin-left: 20%;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 799px){
+    header{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        
+    }
+   
+     .banner-content{
+        width: 400px;
+        
+    }
+    .cake-items{
+        width: 100%;
+        padding: 0;
+        left: 15%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .cake-gellary{
+                position: relative;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                padding: 0;
+             left: 15%;
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+             }
+             .img{
+                 height: 100%;
+                 width: 100%;
+                 margin-left: 10%;
+                 text-align: center;
+                 padding: 0;
+             }
+             .img img{
+                 position: relative;
+                 left: 5%;
+                width: 1000px;       
+                display: flex;
+                text-align: center;
+                height: 700px;
+                margin: 0;
+                padding: 0;
+            }
+            .content{
+                font-weight: bold;
+                font-size: 15px;
+                width: 300px;
+                color: black;
+                position: absolute;
+            
+            }
+            .description{
+                margin-left: 20%;
+               }
+            .cake-gellaries img{
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+            }
+            .footer-contact-section{
+                width: 1000px;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                padding: 0;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .video{
+                width: 100%;
+                padding-right: 5%;
+                            border-radius: 5%;
+            }
+            .footer-contact{
+                padding: 0;
+                width: 450px;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                
+            }
+            .footer-section {
+                width: 480px;
+                height: 258px;
+            }
+            .footer-section::before{
+                
+                border-radius: 5%;
+                
+            }
+            .icons{
+                margin-left: 25%;
+                
+            }
+            .copyright{
+                margin-left: 20%;
+            }
+        }
+            @media only screen and (min-width: 800px) and (max-width: 1080px){
+                header{
+                    width: 100%;
+                    height: 100%;
+                    padding: 0;
+                    
+                }
+               .banner-section{
+                   padding: 0;
+                   grid-template-columns: repeat(2, 1fr);
+                   display: grid;
+               }
+                 .banner-section img{
+                     width: 100%;
+                 }
+                 .banner-content{
+                     width: 400px;
+                 }
+                .cake-items{
+                    width: 100%;
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                }
+                .cake-items img{
+                    width: 100%;
+                }
+                        .cake-gellary{
+                            /* text-align: center;
+                            align-items: center;
+                            justify-content: center;  */
+                            padding: 0;
+                     display: grid;
+                     grid-template-columns: repeat(3, 1fr);
+                         }
+                         .img{
+                             height: 100%;
+                             width: 100%;
+                             /* margin-left: 10%; */
+                             text-align: center;
+                             padding: 0;
+                         }
+                         .img img{
+                             position: relative;
+                             /* left: 5%; */
+                            width: 1000px;       
+                            display: flex;
+                            text-align: center;
+                            height: 700px;
+                            margin: 0;
+                            padding: 0;
+                        }
+                        .content{
+                            font-weight: bold;
+                            font-size: 15px;
+                            width: 300px;
+                            color: black;
+                            position: absolute;
+                        
+                        }
+                     
+                     
+                        .cake-gellary{
+                            margin-left: 3%;
+                            width: 90%;
+                            padding: 0;
+                        } 
+                        .cake-gellaries{
+                            width: 100%;
+                            
+                        }
+                        .footer-contact-section{
+                            width: 1000px;
+                            text-align: center;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 0;
+                            display: grid;
+                            grid-template-columns: repeat(3, 1fr);
+                        }
+                 
+                        .footer-contact{
+                            padding: 0;
+                            width: 440px;
+                            text-align: center;
+                            align-items: center;
+                            justify-content: center;
+                            
+                        }
+                        .footer-section {
+                            width:100%;
+                            height: 258px; 
+                        }
+                         .footer-section::before{
+                            border-radius: 5%;
+                            
+                        }
+                       
+                        .video{
+                            padding-right: 5px;
+                                        border-radius: 5%;
+                        }
+            }
